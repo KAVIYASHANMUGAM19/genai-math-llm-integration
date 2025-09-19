@@ -30,7 +30,7 @@ Define a Python function to calculate the volume of a cylinder based on its radi
 Integrate the function into an LLM-based chat completion system with function-calling capabilities.
 
 ### PROGRAM:
-``
+```
 import math
 import os
 from dotenv import load_dotenv, find_dotenv
@@ -86,7 +86,7 @@ height = float(input("Enter the height of the cylinder: "))
 prompt = f"What is the volume of a cylinder with a radius of {radius} and a height of {height}?"
 result = chat_with_openai(prompt)
 print("Result:", result)
-``
+```
 
 ### OUTPUT:
 
